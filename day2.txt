@@ -1,0 +1,44 @@
+Typescript
+        =>open-source language 
+        =>object-oriented
+            =>it has class
+            =>every thing in application is consider as object
+            =>object is collection of property(state) and methods(function)
+        =>it's strongly type based
+            =>every element in typescript will contain some type   
+        =>large-scale application
+        =>it's exceute on browser
+        =>typescript is not exceute on browser
+        =>we have convert TS to javaScript
+        =>Es6 version 
+
+        
+        Typescript on top of js
+            ||
+            ||
+        javaScript core 
+
+        => extention of typescript will be .ts
+        => javaScript extention will be .js
+
+    file.ts     => tsc =>   file.js => exceute by browser
+    
+        => tsc is used to check error at complie time
+        => tsc libraries (set file or function which can be used for code)
+        => tsc will development easy by it's tools
+
+        hist
+        2012
+        1970's
+        0.8
+        4.9
+        
+
+    typescript 
+    
+
+
+
+
+
+

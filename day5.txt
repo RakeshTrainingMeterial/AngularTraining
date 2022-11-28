@@ -1,0 +1,186 @@
+Typescript function type
+    => block of code which help us to maintain reusable the code or you logic do some task
+    => fundamental block of program
+    => adv =>code reusability,error solve(debug)
+    => fuction definition,
+      =>we are create the execute code of the function (logic of that function)
+      => it will start the { and end with } indicate that this my function body
+    function declaration => register the function into our complier
+    we info our complier that we have a function with this name,which has this parameter,return this value
+    function call => it's a process of inform the complier that you need to execute this function first before execute the next line
+
+    fuction fuction_name(parameters:type):return type{
+
+    }
+    function parameter 
+    =>local variable to the function which declared inside paranthies of the function
+    =>the values that are recived by the function
+
+    parameter type:
+        =>deafult parameter
+            this parameter have some deafult values allong with it's declaration
+            function add(a:number=20,b:number=10):number{
+                return a+b;
+            }
+            add(30,40); //70
+            add();//30
+        =>Optional parameter
+            => Optional parameter have a choice to recived the arguments or it can skip the argument
+            function name(firstName:string,lastName:string,mName?:string){
+
+            }
+        =>rest parameter
+            =>consider we have a function called add we are thid function to add n number
+            =>2 ,3,10,1000
+            function add(a:number,b:number){
+
+            }
+            =>this rest parameter are used to pass zero or more argumernts to this function
+            ...parameter
+            =>it will act like a array
+
+            function add(a:number,...b:number[]):number{
+                let sum=a;
+                for(let j=0;j<a.length;j++){
+                    sum=sum+a[j];
+                }
+                retun sum;
+            }
+
+     
+    function arguments =>
+    the values which are passing to function while we calling it
+
+    => function with name
+    => function with out name => Anonymous function
+    Arrow function =>
+        var demo=(a,b)=>{
+            retun a+b;
+        }
+        demo(1,2);
+
+foreach loop
+    =>it type of loop it also follow the for of loop concept
+    => when it get each elements of array call the function
+    => we con't break this loop
+let array:number[]=[1,2,3,4,5];
+array.forEach(function(i){
+    console.log(i+",");
+})
+Typescript oops concept
+    => class 
+     => fundamental block of code which used yo create reuseable code
+     => it's a collection of property(field), method , representation of real world entities
+     => class class_name{
+        //statment
+     } 
+     => object =>
+        instance of class
+        => it's a realtime entities which state and method
+        => it's will the class inside the execute memory
+
+        syntax 
+         let obj= new class_name(); 
+
+        class adv:
+            => it will help us to reuse of code
+            => Optional code
+        
+    
+        inheritance =>
+            it's a process of aquire the property of main class
+            parent and child relation ship
+            class a 
+            class b extends a{
+
+            }
+
+            single type inheritance 
+            multilevel inheritance  c=> b => a
+        abstract 
+            => it's a process of hiding the implemention that process is called abstraction
+            => interface
+                =>it's a class which contain only declaration , there is no definition in that class
+
+            interface chatapp{
+                sendmessage();
+                recivemessage();
+                sendimage();
+                sendvoicemessage();
+                reciveimage();
+                recivevoicemessage();
+                call();
+                deafult icon(){
+                    changeicon(url);
+                }
+            }
+
+            class chatappimp implements chatapp{
+
+
+            }
+        Encapsulation 
+            =>binding the data and code acting on data
+            => used to hide data variables
+            => it's a process of combining both data and method together
+            => to stop the data available everywhere
+        Typescript AccessModifiers
+                private variable to resting the data
+                    =>access of variable with in that class
+
+        Typecasting Accessor
+                => getter and setter
+                it will be add to the method to make that methods get method and set method
+
+                two keyword we used getter and setter (get and set)
+
+task 1 in oops : this task is based on class (oops) map
+                1) you have to create class called student which will hold the property of student name,age,rollno,college,branch
+                2) you have to create multiple object of student class and hold inside map using rollno as key and value as student object
+                3) when we want perticular student detailes you have to featch that object using that object you have to display the student detailes
+
+
+
+
+TypeScript Namespaces
+    it's a process(way) of grouping the logic and functionalities
+    Namespaces is used the features of object
+    Namespaces internal Modules
+    global scope
+    aviod the confusion of name
+    
+
+    syntax 
+    namespace namespace_name {
+        add(){
+
+        }
+        class student{
+
+        }
+        imterface students{
+
+        }
+        class branch{
+
+        }
+        class subject{
+
+        }
+        class staf{
+
+        }
+        class hod{
+
+        }
+
+        class 
+        property
+    }
+
+Typecasting Modules
+        => modules help us to make or create group of class ,method,variable which are related toeachother
+        => it will make class or methods or variables available everywhere in your application
+        => modules use keyword called export which will help us to make the modules available in application 
+
+TypeScript Generics

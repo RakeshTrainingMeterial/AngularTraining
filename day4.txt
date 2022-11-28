@@ -1,0 +1,220 @@
+
+Typescript operators
+    =>it's a symbol that have functinality
+    =>this will perform some operation on values
+        =>Arithmetic(+,-,*,/,%)
+        =>logical(and,or,not(&&,||,!))
+            =>to check condition
+        =>bitwise
+            =>it will perform operation on bitwise of operands
+            =>2 => 0010
+            =>10 => 1010
+            => 2&10=>0010(and)
+            =>2|10=>1010(or)
+            =>2^10=>1000(xor)
+            =>~2=>1101(not)
+            =>2>>2=>00000010 => 00000001=>00000000(right shift)
+            =>2<<2=>0010=>1000
+            =>>>>(right shift by zero value)=>0010 => 2>>>2=>0001=>0000
+
+        =>assign operators
+            =>assign operators will used to assign value
+            => left side variables and right side we have value or operation
+            => symbol will be (=)
+            age=16;
+                if(age=18){
+                    console.log("ok");
+                }else{
+                    console.log("not ok");
+                }
+            => short hand operators
+                => += (add the number the assign) a=2;
+                        a+=1; (a=3)
+                => -=(sub and then assign)
+                => *=(mul and then assign)
+                => /=(div and then assign)
+                => %=(modules then assign)
+            => increment and decrement
+                =>++ and --
+                => pre and post
+
+                a=10
+                b=++a;
+                (value of b 10 and a 11)
+        =>realtional(comparison)
+            realtional is used compare operands return boolean values
+            => (==) is equal both operands are equal return true
+            => (!=) is equal both operands are not equal return true
+            => >(operand1>operand2) it will return ture if and only if operand1 is greater|<|>=it will return ture if and only if operand1 is greater or equal to operand2|<=
+            => ===(identical(both value and tye of that value)) '10' and 10
+        
+        =>type operators
+            => it will used to check the object and it's type
+            => it will check the given value will be type of that object
+            => in color=>{'green','red','black','white'}
+                    'green' in color (ture)
+                    'blue' in color (flase)
+            => typeof (it return the type that value)
+            => instanceof (this we use to check the object is the instance of perticular type(class))
+            => class student 3=> create the object of the student that obje => student
+            => arraystudent=[obj1,obj2,bjse];
+                arraystudent instanceof Array (True)
+                Array instanceof String (flase)
+            => delete => color=>{color1:'green','red','black','white'}
+                delete color.color1
+        =>ternary/conditional operators
+            which will retun true and false by cindition based on that value it will consider on of it's operands
+                (age>18)?true:flase
+0`  `
+Typescript decision making
+        if you want make any decisin in programing level
+        => if you want to skip execute any based on condition we conditional statment
+        => if else (combination of if else)(nested if statment)(if else ladder) switch
+         if(age>18){
+            if(age>22){
+            console.log("is ready for job");
+            }
+         }
+         if(){}
+         elseif(){
+
+         }
+         else{
+
+         }
+
+         switch=>if we have multiple choice to consider 
+         switch(condition){
+            case condition:statment;
+            break;
+            case condition:statment;
+            break;
+            deafult:statment;
+         }
+
+
+Typescript loops
+ =>to execute the statment repeatdly based on condition we use looping statment
+
+ => Indefinite loops
+ if we don't how many time the statment as to be execute but we know the condition
+    =>while
+        => pre condition loop
+    =>do while
+        =>post condition loop
+        => it's body will be execute at list onces
+    
+ => definite loops
+    => if you know how many times your code will execute
+        => for loop
+        => for in loop
+        => for of loop
+
+    for => for(initial value;condition; increment){
+        statment;//
+    }
+
+    for in loop
+     if you want read all in array (object)
+     array =[1,2,3,4,5,6,7,8];
+     for(i=0;i<arr.leangth;i++){
+        console.log(array[i]);
+     }
+
+     for(i in array){
+        console.log(array[i]);
+     }
+     //in will not get you the element of array it retun the index of that element
+
+       for of loop
+         array =[1,2,3,4,5,6,7,8];
+         for(i of array){
+            console.log(i);
+         }
+         //of will get the each element the array
+
+task => array [1,2,3,4,5,6,7,8,9]
+(1,2)(1,3)....(1,9);
+(2,3)(2,4)...(2.9);
+(3,4)...(3.9);
+(8,9)
+Typescript enum,map,set,modifiers
+    =>let and var   
+        => let and var
+        => scope of variable  var will have global scope 
+        let will have local scope
+        => let not allow you to redeclare the variable
+        => var it will allow us to redeclare the variable
+    => const can declare the variable
+        => if you want to declare any constant variable we use const
+         => the variable value cannot be chage after you initialise it
+
+    enum =>
+        enum is called enumerator,
+        enum is a one dataType in typescript
+        it is used to hold set of const
+
+        number enum
+        string enum
+        hetiro enum 
+map =>
+    dataType which containes (key and values)
+    each value in map will be key-value perticular
+
+    syntax 
+        var map = new Map();
+        we can mention type of key and type of value
+        var map = new Map<string,string>();
+
+        insert value to map
+        set()
+        get()
+        delete()
+        size()
+        clear()
+        has()
+
+        iterating map
+        for of loop in ts
+        method to get all keys in map keys();
+        for(key of map1.keys()){
+            console.log(key);
+        }
+        values of map by values()
+
+        for(value of map1.values()){
+            console.log(value)
+        }
+        enteries
+        enteries() in map
+        for(let pair of map1.enteries()){
+            console.log(pair[0],pair[1]);
+        }
+
+set 
+    => is also an object which contain only values
+    => each values in a set must be unic(distinct)
+    
+    syntax 
+        let set1=new Set<type>();
+
+        methods
+        add()
+        delete()
+        size()
+        clear()
+        has()
+
+        set[index]
+
+TypeScript Access Modifiers
+    =>access modifiers help us to control the access of the property
+
+    public
+    =>this variable can access anywhere
+    ,private
+    => it can be access with in that block(class)
+    ,protected
+    =>it can with in the class and in sub class but we con't access using object
+    
+

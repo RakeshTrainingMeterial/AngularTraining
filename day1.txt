@@ -1,0 +1,98 @@
+what is software?
+    set of programs used in os/in app,
+    using the language, we exceute some events
+    making digital product and application
+    combination of inst and documents used to run under computer
+
+
+software is a feature for us to create any real entity in virtual thing
+
+    programing language?
+        => language which used to communicate with machine
+        => set of instructions that will understand by machine
+        => rule to exceute the specific task
+        => it used to send info from user to device 
+    =>language
+        => to communicate 
+        => send the information from one person to another 
+
+    javaScript and Typescript
+        => which help us to build web application
+        =>
+
+    
+    if consider any web application
+        => html
+        => css
+        => javaScript 
+            => dynamic by providing data to web page
+            =>
+
+
+
+
+
+
+
+
+        JAVASCRIPT:
+            => it's a scripting language
+            => Dynamic language
+            => we use this language to provide data and interact with dom of  web application
+
+            => javaScript is also run under web engine
+
+        
+         node run time envi
+                => nodejs => download
+                => npm => download and install npm
+                => Typescript => npm i -g typescript
+                => angular => npm i -g @angular/cli
+
+        
+     javaScript
+        =>
+        variables
+            =>used to store the value
+            =>name of memory address where our data stored
+        => syntax of variables
+            datatype variablename = value; java stric type
+                ex int a = 10;
+
+        javaScript variables 
+                keyword (let  , var)
+                dynamic type language
+                    datatype of variablename is decide based on the value of variable
+                    let a=10;
+
+                let keyword
+                    => name which as some defenation that are called keyword
+                => let , var
+                    => what are the name in front of let keyword must be treated as variable
+            
+                bifferent d/w this keywords will scope of the variable
+
+
+            typescript 
+                => it is also a language which build on top of javaScript with some extra feture 
+                => it's superset of javaScript
+                => stric type language
+                => testing the code for test the demo allong with the code ok 
+                => done of new code is given by test of test show 
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

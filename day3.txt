@@ -1,0 +1,68 @@
+typescript type
+    dataType => values 
+    java dataType =>(char,string,int,byte,double,
+    float,boolen,long)
+
+    typescript(javaScript)=>
+    1)number(int and float)=>
+    can hold integer value,fraction values,0x hexadecimal
+    octal 0o377,binary values 0b11101011.
+    2)string =>
+    contain sequence of char ""|'', it will except expession inside the string 
+    `${name}` syntax of expression in ts ${name}
+    ,
+    3)null =>
+    it will repreent the variable with null value to indicate that it's not initialise
+    the variable is undefined
+    ,
+    4)void =>
+    retun type of function not return anything (void will return null),
+    5)boolean =>
+    boolean will consider two values (true,false),
+    6)any type =>
+         it's also one f dataType in typescript (super type),
+         that varie which as any as it's type then that varable will except any type of value inside that 
+
+     primitive dataType
+
+
+typescript variables
+    => CONTAINER which hold the value
+    => syntax 
+    => let|var variable_name:type = value;
+
+    Annotation(: we use annotation to mention the type )
+    it can annotation can be used anywhere (variable|function etc)
+
+typescript annotation
+    Annotation(: we use annotation to mention the type )
+    it can annotation can be used anywhere (variable|function etc)
+    inner annotation and general annotation
+
+
+typescript inference
+    the process of complier will decide the type of variable based on it's value that process is called inferring
+typescript assertion
+    it's process of inform the complier to the type of variable
+    typecasting in java is knothing but assertion in TS
+    using as keyword 
+    Anglar Brackets <>
+typescript array,tuple,union,string,numers
+    Array =>
+        it's a hold sequence data element of same dataType
+        to access of element of array index
+        first index of array is 0
+        javaScript => array of different dataType
+        typescript will help you create array which hold the homogineas element
+    union
+        => the process of mention multiple type for a single variable the process is called union
+        union ca represent (|)
+    tuple
+        =>which hold the multiple type values in datastructure
+        =>it's dont have  index;
+    string
+        =>sequence of char
+        
+
+
+
