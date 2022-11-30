@@ -1,0 +1,28 @@
+.btn-green{
+    color: white;
+    background-color: green;
+}
+.btn-red{
+    color: white;
+    background-color: red;
+}
+.btn-blue{
+    color: white;
+    background-color: blue;
+}
+button{
+    margin: 10px;
+}
+
+.red{
+    color:white;
+    background-color: red;
+}
+.green-color{
+    color:white;
+    background-color: green;
+}
+.blue-color{
+    color:white;
+    background-color: blue;
+}

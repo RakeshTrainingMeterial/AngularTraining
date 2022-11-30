@@ -1,0 +1,18 @@
+h1{
+    color:aqua;
+    text-shadow: 3em;
+}
+
+.third{
+    display: flex;
+    float: left;
+}
+.fourth{
+    display:flex;
+    float:bottom-left;
+}
+
+p{
+    color:red;
+    font-size: large;
+}

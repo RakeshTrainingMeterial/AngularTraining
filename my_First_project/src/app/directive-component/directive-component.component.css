@@ -1,0 +1,19 @@
+.btn-success{
+    color: white;
+    background-color: green;
+
+}
+.btn-danger{
+    color: white;
+    background-color: red;
+
+}
+
+button{
+    margin: 10px;
+}
+
+.container{
+    margin-top: 10px;
+    margin-left: 200px;
+}

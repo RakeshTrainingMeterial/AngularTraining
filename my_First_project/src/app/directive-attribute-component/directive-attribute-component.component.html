@@ -1,0 +1,20 @@
+<div>
+    <p [ngClass]="{
+        red: colorName==='red',
+        'green-color':colorName==='green',
+        'blue-color':colorName==='blue'
+}">click button color will show here</p>
+    <div>
+        <button class="btn-green" (click)="changeColor('green')">Green</button>
+        <button class="btn-red" (click)="changeColor('red')">Red</button>
+        <button class="btn-blue" (click)="changeColor('blue')">Blue</button>
+        
+    </div>
+</div>
+<div>
+    <p [ngStyle]="{color: StyleStatus ? 'white' : 'black',
+    'background-color':StyleStatus?'red':'green'}">Showing ngStyle approch</p>
+    <div>
+        <button (click)="toggleStyle()">Toggle</button>
+    </div>
+</div>
