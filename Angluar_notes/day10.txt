@@ -1,0 +1,51 @@
+Template reference variable
+    => it's a special variable
+    => #varaible name
+    => this variable will present at attribute of the tag
+    => this varaible will help us to access Dom element
+    => we use his variable to pass dom elements into ts component
+    => example
+in put tag we are taking the input from user
+ use reference send the value to that perticular function of button
+ use the value of input tag
+ calculate the number of charecter in the input
+ and print that in webpage
+
+life cycle hooks 
+   =>life cycle hooks in both component and Directives
+            =>ngOnInit
+            =>ngOnChange
+            =>ngDoCheck
+            =>ngDestroy
+    =>life cycle hooks in only component
+        =>ngAfterContentInit
+        =>ngAfterContentChecked
+        =>ngAfterViewInit
+        =>ngAfterViewChecked
+        
+    constructure 
+        =>not life cycle hook
+      =>its's a feature of ts
+    =>init will also a life cycle
+
+OnInit
+    =>which is used to call at the point creating and deploying the component into the DOM
+    => init will help us to initalise any thing inside that component before it deploye to the DOM
+OnDestroy
+    => this hook will before the component is destroy it will help us perform any important task before we destroy the component
+
+OnChange
+    =>it will help us listen the changes in component
+    => it will help us to listen input decoraters variable
+
+onDoCheck
+    => to check every changes in your application 
+
+ngAfterContentInit  
+    => this life cycle will be called when there is content init of component will trigger
+
+ngAfterContentChecked
+    => this will trigger after content will chaged
+
+Routing
+    =>

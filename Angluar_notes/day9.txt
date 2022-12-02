@@ -1,0 +1,27 @@
+web pages
+    => DOM
+    => virtual DOM
+    => DOM
+
+    data binding :
+    communication will done with in the component
+html ==> ts
+ts   ==> html 
+
+communication b/w component
+    =>using @input of ngmodel methods
+    => using @output of eventEmitting process
+service concecpt and dependency Injection
+    => service is an angular class(ts) which will help us to share function data among the component
+    => in service we will not use any decoraters
+    => @injected
+    => this service will help us to inject the data from one to another which don't have any relationship
+    => if you use the service in root component then it is availbel for all the component of that root component
+    => if your using service inside any component then this will availabel for it's parent component and it's child
+    
+
+
+                    root 
+          parent               parent2
+       child1  child2      child3     child 4
+    c1  c2   c3  c4  c5    c6  c7  c8 c9 c10 c11

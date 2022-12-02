@@ -1,0 +1,94 @@
+
+Decorators
+    => Special kind of symbols that are present in type script whichnis used for metion infomation of data
+    => metadata about data
+    => hemanth(this is a name of a person,it's a boy name,india)
+    => database schema of the data  
+    => syntax 
+        => @decorator_name
+        => decorator_name is a function 
+        => this function will execute at runtime
+        => this function tell the executor about that statment 
+    => use the Decorators for class , methods, variables ,property
+
+    @sealed
+    class Demo{
+        @ReadOnly
+        username="rakesh";
+        let array:string[]=new Array<string>();
+        @log
+        check(value:string){
+            this.array.push(value);
+        }
+
+        login(@Required username:string,@Required password:string){
+
+        }
+    }
+
+    var demo= new Demo();
+Angular components
+    =>  it's like part or block in UI
+    =>  Basic build block of Angular
+    =>  web page we are using to provide an interface to user
+    =>  it's a process of divide the page into small parts that parts we call it components
+    =>  each application must have one root
+    =>  this help us to split user vig application into small logical grouph
+    =>  components will have some basic Decorator allong with that 
+            => @component
+    =>  how can we create the new component for my application
+    =>  ng generate component component_name
+        => ng g c component_name
+
+task1   =>
+        create 4 different components
+        => create a page where first component must act as header of page,
+        second component must act as side bar of the page,
+        third component must act like body of page
+        4th componen must act as fotter of your page  
+
+Angular data binding
+        <h1>{{companyName}}</h1>
+
+        ts
+        companyName="vtigerCrm"
+        => it's a process of sending data from ts to html (html to ts)
+        => it's a communication b/w ts to html
+        => String interpolation
+            => your send data from your ts to html this data is used to display in the string 
+            => {{variablesname}}
+        => property binding
+            => html tags each tag will have different attributes inside it property binding will help us to bind that data to the attributes
+            [attributes_name]="variablesname"
+        => event binding
+            => it will help us to send the data from html to ts
+            => it's a process of binding he event of tag to ts function
+            => (eventname)="functionname(event object)"
+        => two way binding
+            => ngModule 
+
+
+task 2
+    event bind
+    create at two input tags take user name and password as input from user
+    check that user name and password is correct 
+    show a message welcome to our page you have to show a wrong credentials
+
+Directives of Angular
+    we will consider Directives are attributes of Angular
+    Directives will help us to instruct the DOM change the structure of DOM elemets
+    component is also Directives but this with template
+    Structural Directives
+        ngif ngfor ngswitch
+    Attributes Directives
+        modify the property of DOM
+        Attributes Directives will deal with Attributes of tag
+        it will not modify the structure the DOM
+     ngClass ngStyle
+
+     task 3 =>  create a component
+                you have to display number b/w 1 to 100
+                create 2 buttons button 1 is for show number which is divided by 2
+                create 2 buttons button 1 is for show number which is divided by 3
+
+    

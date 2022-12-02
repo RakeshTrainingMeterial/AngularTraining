@@ -1,0 +1,54 @@
+Angular is a javascript framework
+    =>Angular(class based)
+    =>react(library)
+    =>vuejs
+framework
+    => tool which build on top any languages
+    => which will build to structre project
+    => this framework will help us combine the different components in project together so maintain of this project will be easy for us
+    => the framework will help us to maintain all the module required for your application together
+    => it will help us combine all html,css,and javascript together
+    => framework will help us to handle data-binding
+    => framework will also help us build dynamic web pages
+
+Angular
+    =>js framework which we used to build web application
+    => opensource framework anyone can use
+    => Angular used to uild single page application
+
+web application will run
+    =>run on server
+    =>which has client and server part
+    => client any thing wich execute on browser 
+    => anything which execute on server side that we all it as server
+
+Angular will benifits
+    =>data binding(Dynamic web page)
+        =>static web page
+            =>data of page will be static it will not chage
+            => exm
+                => <html>
+                <head>
+                </head>
+                <body>
+                <h1>Hi everyone</h1>
+                </body>
+                    </html>
+            => html is depend on data (html and data comnined together)
+        =>Dynamic web page
+            =>the page which have dynaic data combined with that
+            <html>
+            <head>
+            </head>
+            <body>
+            <h1>{{greating}}</h1>
+            </body>
+            </html>
+            <script>
+            var greating="hi hellow everyone";
+            </script>
+    => MVC(Model View Controller) struture
+    => dependency injection
+    => Two way databinding
+    
+
