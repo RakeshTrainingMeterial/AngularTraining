@@ -1,0 +1,11 @@
+<!--<div>
+<p>parent component</p>
+<input type="text" [(ngModel)]="parentInputValue" />
+<p>{{childValue}}</p>
+</div>
+<app-child [parentValue]="parentInputValue" (sendMessage)="setchildValues($event)"></app-child>
+-->
+<p>parent</p>
+<input type="text" #myInput ngModel/>
+<button (click)="toggle()">Toggle</button>
+<app-child *ngIf="allowComponent" [parentValue]="myInput.value"><h1 #paretContentTag>sending from </h1></app-child>
