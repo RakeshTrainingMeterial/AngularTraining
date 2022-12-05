@@ -1,0 +1,21 @@
+.header{
+    padding : 20px;
+    background-color:black;
+}
+
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-item:center;
+}
+
+a{
+    font-weight:bold;
+    font-size:20px;
+    text-decoration:none;
+    color:white;
+}
+
+a.active{
+    color:lightblue;
+}
