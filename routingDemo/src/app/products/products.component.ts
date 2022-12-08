@@ -9,7 +9,7 @@ export class ProductsComponent implements OnInit{
   
   productName=''
   constructor(private route:ActivatedRoute){
-
+     
   }
  
   ngOnInit(): void{

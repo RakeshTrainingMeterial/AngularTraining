@@ -1,0 +1,12 @@
+<form #myForm="ngForm" (ngSubmit)="onsubmit(myForm)">
+    <input type="text"  
+    name="uname"
+    required
+    type="text"
+    class="form-control"
+    id="uname"
+    #uname="ngModel"
+    ngModel/>
+    <input type="text" #udata="ngModel" name="udata" ngModel/>
+    <button type="submit"  >submit</button>
+</form>
